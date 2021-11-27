@@ -1,0 +1,37 @@
+.home-wrapper{
+    padding: 0px 20px;
+    button{
+        background-color: #FCA311;
+        color: #FFFFFF;
+        font-size: 15px;
+        font-weight: bold;
+
+    }
+    button:hover{
+        background-color: #e2920f;
+        animation: 10s;
+        border-radius: 10px;
+    }
+
+    .content-wrapper{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center ;
+    }
+
+    .pagination{
+        width: 400px;
+        display: flex;
+        margin: auto;
+       
+    }
+
+    .text-page{
+        font-size: 38px;
+        width: 380px;
+        text-align: center;
+        font-weight: bold;
+        margin: 0px;
+    }
+   
+}
